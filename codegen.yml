@@ -1,0 +1,16 @@
+schema:
+  - "./graphql_schema.json"
+overwrite: true
+documents:
+  - "./src/**/*.graphql"
+  - "./src/**/*.ts"
+  - "./src/**/*.tsx"
+config: {}
+generates:
+  ./src/types.ts:
+    plugins:
+      - typescript-common
+      - typescript-client:
+        noNamespaces: true
+      - typescript-server
+require: []
