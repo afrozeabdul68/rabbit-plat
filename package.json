@@ -24,7 +24,7 @@
     "axios": "^0.19.0",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
-    "qs": "^6.7.0",
+    "qs": "^6.8.3",
     "react": "16.8.6",
     "react-apollo": "^3.0.0",
     "react-apollo-hooks": "^0.4.3",
